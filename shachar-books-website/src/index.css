@@ -1,0 +1,264 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display:block;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background-color: #242424;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.container {
+  text-align: center;
+  padding: 40px 0 0 0; 
+  box-sizing: border-box;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0 0 0;
+  box-sizing: border-box;
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  margin-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+footer {
+  margin-top: 60px;
+  font-size: 0.9em;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+button {
+
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #000000;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  body {
+    background-color: #ffffff;
+    color: #213547;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: rgba(150, 103, 103, 0.877);
+  }
+}
+
+
+.card {
+  border: 1px solid hsl(0, 15%, 94%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #f3eeee; 
+  text-align: center;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   direction: rtl;
+  text-align: right;
+}
+
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.card .card-image{
+    max-width: 60%;
+    height: auto;
+
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.card .card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 20%);
+}
+.card .card-text{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 0%, 30%);
+}
+.link-wrapper {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;     
+  max-width: 400px;  
+  box-sizing: border-box;
+}
+
+.color{
+  background-color: antiquewhite;
+}
+
+.about {
+  margin: 0 auto 5px auto;
+  padding: 40px 20px;
+  direction: rtl;
+  text-align: right;
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  font-size: 20px;      /* טקסט גדול */
+  line-height: 1.2;     /* מרווח שורות צמוד */
+}
+
+
+.image-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.book-description {
+  direction: rtl;
+  text-align: right;
+}
+
+.book-title{
+  direction: rtl;
+  text-align: center;
+}
+.center{
+  text-align: center;
+  text-align: center;
+}
+.colorN{
+  background-color: rgb(33, 37, 41);
+   color: white;
+    direction: rtl;
+  text-align: right;
+}
+.colorN button {
+  margin: 5px;
+  
+}
+.register-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  direction: rtl;
+  text-align: right;
+}
+
+.register-title {
+  text-align: center;
+  color: #212529;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #646cff;
+}
+
+.register-button {
+  background-color: #212529;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #343a40;
+}
+
