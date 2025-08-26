@@ -14,7 +14,7 @@ The project showcases a full-stack setup with **React frontend**, **Node.js/Expr
 ## Screenshots
 
 ### Homepage
-![Homepage]()
+![Homepage](pagesPic/homePage.png)
 
 ### Book Details
-![Book Details]()
+![Book Details](pagesPic/AllBooks.png)
