@@ -5,7 +5,7 @@ import cors from "cors";
 const pool = mysql.createPool({
     host:"localhost",
     user:"root",
-    password:"983305sd",
+    password:"",
     database:"books"
 }).promise()
 
